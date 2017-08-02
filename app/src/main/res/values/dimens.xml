@@ -1,9 +1,34 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="circle_image_width">120dp</dimen>
+    <dimen name="image_spacing">16dp</dimen>
+    <dimen name="border_width">2dp</dimen>
+
+    <!-- Floating Action Buttons -->
+    <dimen name="fab_button_size">48dp</dimen>
+    <dimen name="design_fab_image_size" tools:override="true">36dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="fab_pressed_elevation">12dp</dimen>
+    <dimen name="fab_resting_elevation">6dp</dimen>
+    <dimen name="appbar_resting_elevation">4dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    
+    <!-- Text dimensions -->
+    <dimen name="display_two_text">45sp</dimen>
+    <dimen name="display_one_text">34sp</dimen>
+    <dimen name="headline_text">24sp</dimen>
+    <dimen name="appbar_title_text">20sp</dimen>
+    <dimen name="subheading_text">16sp</dimen>
+    <dimen name="regular_body_text">14sp</dimen>
+    <dimen name="caption_text">12sp</dimen>
+
 </resources>
