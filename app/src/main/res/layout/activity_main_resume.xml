@@ -82,7 +82,6 @@
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
-        <!-- TODO: Experience text is shrinking. Fix it. -->
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"

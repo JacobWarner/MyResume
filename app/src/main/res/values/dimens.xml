@@ -32,4 +32,7 @@
     <dimen name="half_regular_body_text">7sp</dimen>
     <dimen name="caption_text">12sp</dimen>
 
+    <!-- Text Design -->
+    <dimen name="bullet_point_divider_spacing">6dp</dimen>
+
 </resources>

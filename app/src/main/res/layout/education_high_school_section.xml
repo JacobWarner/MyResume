@@ -8,6 +8,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
@@ -18,7 +19,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="centerInside"
-            android:src="@drawable/unl_icon"/>
+            android:src="@drawable/burke_high"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -30,7 +31,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/college_name"
+                android:text="@string/high_school_name"
                 android:textStyle="bold"
                 android:textSize="@dimen/regular_body_text"
                 android:textColor="@color/black_contrast_87"/>
@@ -39,7 +40,7 @@
                 android:id="@+id/college_bachelors"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/bachelor_of_science"
+                android:text="@string/high_school_location"
                 android:textColor="@color/black_contrast_87"
                 android:textSize="@dimen/subheading_text"/>
 
@@ -47,7 +48,7 @@
                 android:id="@+id/college_minor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/minor_study"
+                android:text="@string/high_school_graduation_date"
                 android:textSize="@dimen/caption_text"/>
 
         </LinearLayout>
@@ -59,7 +60,33 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/subheading_text"
         android:textColor="@color/black_contrast_87"
-        android:text="@string/honors_full_title"/>
+        android:text="@string/high_school_subheading"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="@dimen/bullet_point_divider_spacing"
+        tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
+
+        <TextView
+            android:id="@+id/high_school_bullet_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:textSize="@dimen/regular_body_text"
+            android:text="@string/high_school_bullet_one"/>
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/high_school_bullet_one"
+            android:layout_alignBottom="@id/high_school_bullet_one"
+            android:background="@color/colorPrimaryLight"/>
+
+    </RelativeLayout>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -71,43 +98,21 @@
         tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
 
         <TextView
-            android:id="@+id/raikes_description"
+            android:id="@+id/high_school_bullet_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginStart="8dp"
             android:textSize="@dimen/regular_body_text"
-            android:text="@string/raikes_school_description"/>
+            android:text="@string/high_school_bullet_two"/>
 
         <ImageView
             android:layout_width="2dp"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/raikes_description"
-            android:layout_alignBottom="@id/raikes_description"
+            android:layout_alignTop="@id/high_school_bullet_two"
+            android:layout_alignBottom="@id/high_school_bullet_two"
             android:background="@color/colorPrimaryLight"/>
 
     </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textSize="@dimen/caption_text"
-            android:text="@string/anticipated_graduation"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textSize="@dimen/caption_text"
-            android:text="@string/grade_point_average"/>
-
-    </LinearLayout>
 
 </LinearLayout>
