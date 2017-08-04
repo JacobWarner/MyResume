@@ -2,6 +2,37 @@
     <string name="personal_name">Jacob Warner</string>
     <string name="title_my_resume">My Resume</string>
     <string name="app_name">My Resume</string>
+    
+    <!-- Education - College -->
+    <string name="college_name">University of Nebraska-Lincoln</string>
+    <string name="college_location">Lincoln, Nebraska</string>
+    <string name="bachelor_of_science">B.S. in Computer Science and Mathematics</string>
+    <string name="minor_study">Minor in Business Management</string>
+    <string name="anticipated_graduation">Date of Graduation: May 2019</string>
+    <string name="grade_point_average">GPA 3.91</string>
+    <string name="honors_program">Honors Program</string>
+    <string name="raikes_school">Jeffrey S. Raikes School of Computer Science and Management</string>
+    <string name="honors_full_title">
+        Honors Program: Jeffrey S. Raikes School of Computer Science and Management
+    </string>
+    <string name="raikes_school_description">
+        "A selective interdisciplinary school integrating innovative business concepts into a traditional computer science curriculum with emphasis on practical and real-world experience taught through group projects."
+    </string>
+
+    <!-- Education - High School -->
+    <string name="high_school_name">Harry A. Burke High School</string>
+    <string name="high_school_location">Omaha, Nebraska</string>
+    <string name="high_school_graduation_date">May 2015</string>
+    <string name="high_school_subheading">Class 2015 Valedictorian of 488 students</string>
+    <string name="high_school_bullet_one">
+        4.0 GPA, 33 ACT, AP Scholar, 2015 Outstanding Senior Award by the Omaha West Rotary Club
+    </string>
+    <string name="high_school_bullet_two">
+        "National Honor Society (President), Senior Senate (Treasurer), "
+        "Varsity Marching Band (Low Brass Section Leader), Academic Decathlon (Tester)"
+    </string>
+    
+    
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

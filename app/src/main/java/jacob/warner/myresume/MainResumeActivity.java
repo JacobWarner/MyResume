@@ -17,7 +17,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 public class MainResumeActivity extends AppCompatActivity {
 
@@ -45,6 +44,7 @@ public class MainResumeActivity extends AppCompatActivity {
         setupFloatingActionButtons();
     }
 
+    //TODO: Make single FAB for contact options - put saving of resume PDF in menu
     private void setupFloatingActionButtons() {
         FloatingActionButton phoneFab = (FloatingActionButton) findViewById(R.id.phone_fab);
         phoneFab.setOnClickListener(new View.OnClickListener() {
@@ -83,6 +83,7 @@ public class MainResumeActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         //TODO: Add "Legal" section
+        //TODO: Add "Save as PDF" section
         switch (item.getItemId()) {
             case R.id.action_settings:
                 return true;
@@ -128,20 +129,13 @@ public class MainResumeActivity extends AppCompatActivity {
                     layoutResourceID = R.layout.experience_fragment;
                     break;
                 case 2:
-                    layoutResourceID = R.layout.skills_fragment;
-                    break;
-                case 3:
                     layoutResourceID = R.layout.projects_fragment;
                     break;
                 default:
                     return null;
             }
 
-            //TODO: Change fragment content based on corresponding tab
-            View rootView = inflater.inflate(layoutResourceID, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(R.string.large_text);
-            return rootView;
+            return inflater.inflate(layoutResourceID, container, false);
         }
     }
 
@@ -157,12 +151,12 @@ public class MainResumeActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return PlaceholderFragment.newInstance(position + 1);
+            return PlaceholderFragment.newInstance(position);
         }
 
         @Override
         public int getCount() {
-            return 4;
+            return 3;
         }
 
         @Override
@@ -173,8 +167,6 @@ public class MainResumeActivity extends AppCompatActivity {
                 case 1:
                     return "EXPERIENCE";
                 case 2:
-                    return "SKILLS";
-                case 3:
                     return "PROJECTS";
             }
             return null;
