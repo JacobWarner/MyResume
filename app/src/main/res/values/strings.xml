@@ -2,7 +2,8 @@
     <string name="personal_name">Jacob Warner</string>
     <string name="title_my_resume">My Resume</string>
     <string name="app_name">My Resume</string>
-    
+
+
     <!-- Education - College -->
     <string name="college_name">University of Nebraska-Lincoln</string>
     <string name="college_location">Lincoln, Nebraska</string>
@@ -19,19 +20,55 @@
         "A selective interdisciplinary school integrating innovative business concepts into a traditional computer science curriculum with emphasis on practical and real-world experience taught through group projects."
     </string>
 
+
+    <!-- College - Honors and Awards -->
+    <string name="honors_and_awards_title">Honors and Awards</string>
+    <string name="regents_scholarship">University of Nebraska-Lincoln Regents Scholarship</string>
+    <string name="honors_program_scholarship">University of Nebraska-Lincoln Honors Program</string>
+    <string name="raikes_scholarship">Jeffrey S. Raikes School Scholarship</string>
+    <string name="deans_list_award">Dean\'s List, `15 - `16 and `16 - `17</string>
+    <string name="spreetail_scholarship">Spreetail Make-a-Dent CSE Scholarship</string>
+    <string name="koch_scholarship">Koch Discovery Program Scholarship</string>
+    
+
+    <!-- College - Activities -->
+    <string name="activties_title">Activities</string>
+    <string name="activities_honor_societies">Alpha Lambda Delta and Phi Eta Signma Honor Socieities</string>
+    <string name="activities_kra">Kauffman Residents Association Representative</string>
+    <string name="activities_raikes_treasurer">Raikes School Student Advisory Board Treasurer</string>
+    <string name="activities_raikes_ambassador">Raikes School Ambassador and Mentor</string>
+    <string name="activities_marathon_charity">Make-A-Wish Illinois Charity Marathon Runner</string>
+    <string name="activities_ooft">Out of the Darkness Assistant Logistics Coordinator</string>
+    <string name="activities_pike_member">Pi Kappa Alpha Fraternity Member</string>
+    <string name="activities_pike_internet">Pi Kappa Alpha Internet Chair</string>
+
+
     <!-- Education - High School -->
     <string name="high_school_name">Harry A. Burke High School</string>
     <string name="high_school_location">Omaha, Nebraska</string>
-    <string name="high_school_graduation_date">May 2015</string>
-    <string name="high_school_subheading">Class 2015 Valedictorian of 488 students</string>
+    <string name="high_school_graduation_date">Date of Graduation: May 2015</string>
+    <string name="high_school_subheading">Valedictorian of 488 students</string>
+    <string name="high_school_gpa">GPA 4.0</string>
     <string name="high_school_bullet_one">
-        4.0 GPA, 33 ACT, AP Scholar, 2015 Outstanding Senior Award by the Omaha West Rotary Club
+        33 ACT, AP Scholar, 2015 Outstanding Senior Award by the Omaha West Rotary Club
     </string>
     <string name="high_school_bullet_two">
         "National Honor Society (President), Senior Senate (Treasurer), Varsity Marching Band (Low Brass Section Leader), Academic Decathlon (Tester)"
     </string>
     
     
+    <!-- High School - Honors and Awards -->
+    <string name="high_school_act">33 ACT, AP Scholar, Weighted GPA 4.90</string>
+    <string name="high_school_outstanding_senior">2015 Outstanding Senior Award by the Omaha West Rotary Club</string>
+
+
+    <!-- High School - Activities -->
+    <string name="activities_nhs">National Honor Society (President)</string>
+    <string name="activities_senior_senate">Senior Senate (Treasurer)</string>
+    <string name="activities_marching_band">Varsity Marching Band (Low Brass Section Leader)</string>
+    <string name="activities_academic_decathlon">Academic Decathlon (Tester)</string>
+
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

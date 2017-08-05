@@ -16,9 +16,7 @@
 
         <include layout="@layout/education_college_section"/>
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="48dp" />
+        <include layout="@layout/section_divider"/>
 
         <!-- High School Section -->
 

@@ -10,7 +10,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
 
         <ImageView
@@ -32,87 +31,53 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/high_school_name"
-                android:textStyle="bold"
                 android:textSize="@dimen/regular_body_text"
                 android:textColor="@color/black_contrast_87"/>
 
             <TextView
-                android:id="@+id/college_bachelors"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/high_school_location"
+                android:textSize="@dimen/subheading_text"
                 android:textColor="@color/black_contrast_87"
-                android:textSize="@dimen/subheading_text"/>
+                android:textStyle="bold"
+                android:text="@string/high_school_subheading"/>
 
             <TextView
-                android:id="@+id/college_minor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/high_school_graduation_date"
-                android:textSize="@dimen/caption_text"/>
+                android:textSize="@dimen/regular_body_text"
+                android:textColor="@color/black_contrast_87"
+                android:text="@string/high_school_location"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/subheading_text"
-        android:textColor="@color/black_contrast_87"
-        android:text="@string/high_school_subheading"/>
-
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="@dimen/bullet_point_divider_spacing"
-        tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
+        android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/high_school_bullet_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginStart="8dp"
             android:textSize="@dimen/regular_body_text"
-            android:text="@string/high_school_bullet_one"/>
-
-        <ImageView
-            android:layout_width="2dp"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@id/high_school_bullet_one"
-            android:layout_alignBottom="@id/high_school_bullet_one"
-            android:background="@color/colorPrimaryLight"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="@dimen/bullet_point_divider_spacing"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
+            android:textStyle="bold"
+            android:text="@string/high_school_gpa"/>
 
         <TextView
-            android:id="@+id/high_school_bullet_two"
+            android:id="@+id/college_graduation_gpa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginStart="8dp"
-            android:textSize="@dimen/regular_body_text"
-            android:text="@string/high_school_bullet_two"/>
+            android:layout_marginStart="32dp"
+            android:text="@string/high_school_graduation_date"
+            android:textStyle="bold"
+            android:textSize="@dimen/regular_body_text"/>
 
-        <ImageView
-            android:layout_width="2dp"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@id/high_school_bullet_two"
-            android:layout_alignBottom="@id/high_school_bullet_two"
-            android:background="@color/colorPrimaryLight"/>
+    </LinearLayout>
 
-    </RelativeLayout>
+    <include layout="@layout/education_hs_honors_section"/>
+
+    <include layout="@layout/education_hs_activities_section"/>
 
 </LinearLayout>
