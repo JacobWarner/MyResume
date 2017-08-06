@@ -48,7 +48,7 @@
                         android:layout_width="@dimen/circle_image_width"
                         android:layout_height="@dimen/circle_image_width"
                         android:src="@drawable/self_portrait"
-                        app:civ_border_color="@color/border_color"
+                        app:civ_border_color="@color/border_color_white"
                         app:civ_border_width="@dimen/border_width"
                         android:layout_marginStart="@dimen/image_spacing"
                         android:layout_marginTop="@dimen/image_spacing"

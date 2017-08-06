@@ -1,3 +1,4 @@
+
 <android.support.v4.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -6,23 +7,31 @@
     android:layout_width="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
 
-        <!-- TODO -->
+        <include layout="@layout/experience_hudl_2017"/>
 
-        <TextView
-            android:id="@+id/section_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+        <include layout="@layout/section_divider"/>
 
-    </RelativeLayout>
+        <include layout="@layout/experience_garmin"/>
+
+        <include layout="@layout/section_divider"/>
+
+        <include layout="@layout/experience_google"/>
+
+        <include layout="@layout/section_divider"/>
+
+        <include layout="@layout/experience_hudl_2016"/>
+
+    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
