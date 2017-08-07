@@ -1,8 +1,7 @@
 package jacob.warner.myresume;
 
-import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -17,58 +16,53 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.github.rubensousa.floatingtoolbar.FloatingToolbar;
+import com.github.rubensousa.floatingtoolbar.FloatingToolbarMenuBuilder;
+
 public class MainResumeActivity extends AppCompatActivity {
 
-    private SectionsPagerAdapter mSectionsPagerAdapter;
-    private ViewPager mViewPager;
-    private Toolbar mToolbar;
+    private FloatingToolbar mFloatingToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_resume);
 
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(mToolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");
 
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        mViewPager = (ViewPager) findViewById(R.id.viewpager_container);
-        mViewPager.setAdapter(mSectionsPagerAdapter);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager_container);
+        viewPager.setAdapter(sectionsPagerAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(mViewPager);
+        tabLayout.setupWithViewPager(viewPager);
 
-        setupFloatingActionButtons();
-    }
+        mFloatingToolbar = (FloatingToolbar) findViewById(R.id.floatingToolbar);
+        mFloatingToolbar.setMenu(new FloatingToolbarMenuBuilder(this)
+                .addItem(R.id.action_call, R.drawable.ic_phone_white_24dp)
+                .addItem(R.id.action_email, R.drawable.ic_email_white_24dp)
+                .build());
 
-    //TODO: Make single FAB for contact options - put saving of resume PDF in menu
-    private void setupFloatingActionButtons() {
-        FloatingActionButton phoneFab = (FloatingActionButton) findViewById(R.id.phone_fab);
-        phoneFab.setOnClickListener(new View.OnClickListener() {
+        mFloatingToolbar.attachFab((FloatingActionButton) findViewById(R.id.fab_contact));
+        mFloatingToolbar.setClickListener(new FloatingToolbar.ItemClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Call me", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onItemClick(MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_call:
+                        //TODO: Call action
+                        break;
+                    case R.id.action_email:
+                        //TODO: Email action
+                        break;
+                }
             }
-        });
 
-        FloatingActionButton emailFab = (FloatingActionButton) findViewById(R.id.email_fab);
-        emailFab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Email me", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
-        FloatingActionButton saveFab = (FloatingActionButton) findViewById(R.id.save_fab);
-        saveFab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Save resume as PDF", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onItemLongClick(MenuItem item) {
+                //nothing
             }
         });
     }
@@ -88,6 +82,16 @@ public class MainResumeActivity extends AppCompatActivity {
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (mFloatingToolbar.isShowing()) {
+            mFloatingToolbar.onAnimationFinished();
+            mFloatingToolbar.hide();
+        } else {
+            super.onBackPressed();
         }
     }
 
