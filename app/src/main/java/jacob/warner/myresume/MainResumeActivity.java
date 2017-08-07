@@ -1,5 +1,7 @@
 package jacob.warner.myresume;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -52,10 +54,10 @@ public class MainResumeActivity extends AppCompatActivity {
             public void onItemClick(MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.action_call:
-                        //TODO: Call action
+                        dialPhoneNumber();
                         break;
                     case R.id.action_email:
-                        //TODO: Email action
+                        composeEmail();
                         break;
                 }
             }
@@ -173,6 +175,22 @@ public class MainResumeActivity extends AppCompatActivity {
                     return "PROJECTS";
             }
             return null;
+        }
+    }
+
+    public void dialPhoneNumber() {
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:" + getString(R.string.personal_phone_number)));
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
+
+    public void composeEmail() {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:" + getString(R.string.personal_email)));
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
         }
     }
 }

@@ -8,6 +8,8 @@
         "with software engineering and\n"
         "personal/professional development"
     </string>
+    <string name="personal_phone_number">4023508045</string>
+    <string name="personal_email">jwarner@huskers.unl.edu</string>
 
     <!-- Education - College -->
     <string name="college_name">University of Nebraska-Lincoln</string>
