@@ -15,42 +15,49 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
         android:textSize="@dimen/regular_body_text"
         android:text="@string/activities_honor_societies"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
         android:textSize="@dimen/regular_body_text"
         android:text="@string/activities_kra"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
         android:textSize="@dimen/regular_body_text"
         android:text="@string/activities_raikes_treasurer"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
         android:textSize="@dimen/regular_body_text"
         android:text="@string/activities_raikes_ambassador"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
         android:textSize="@dimen/regular_body_text"
         android:text="@string/activities_marathon_charity"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
         android:textSize="@dimen/regular_body_text"
         android:text="@string/activities_ooft"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
         android:textSize="@dimen/regular_body_text"
         android:text="@string/activities_pike_member"/>
 

@@ -19,17 +19,25 @@
 
         <include layout="@layout/experience_hudl_2017"/>
 
+        <include layout="@layout/experience_hudl_2017_information"/>
+
         <include layout="@layout/section_divider"/>
 
         <include layout="@layout/experience_garmin"/>
+
+        <include layout="@layout/experience_garmin_information"/>
 
         <include layout="@layout/section_divider"/>
 
         <include layout="@layout/experience_google"/>
 
+        <include layout="@layout/experience_google_information"/>
+
         <include layout="@layout/section_divider"/>
 
         <include layout="@layout/experience_hudl_2016"/>
+
+        <include layout="@layout/experience_hudl_2016_information"/>
 
     </LinearLayout>
 

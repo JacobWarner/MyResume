@@ -34,5 +34,6 @@
 
     <!-- Text Design -->
     <dimen name="bullet_point_divider_spacing">6dp</dimen>
+    <dimen name="text_margin_separator">4dp</dimen>
 
 </resources>

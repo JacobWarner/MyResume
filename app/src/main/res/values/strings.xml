@@ -4,9 +4,9 @@
     <string name="app_name">Jacob\'s Resume</string>
     <string name="personal_description">
         "Android Developer\n\n"
-        "Looking for a challenging internship\n"
-        "with software engineering and\n"
-        "personal/professional development"
+        "Looking for a challenging\n"
+        "software engineering internship\n"
+        "with personal/professional development"
     </string>
     <string name="personal_phone_number">4023508045</string>
     <string name="personal_email">jwarner@huskers.unl.edu</string>
@@ -94,10 +94,20 @@
     <string name="google_and_location">Google, Lincoln, Nebraska</string>
     <string name="google_position">Google CodeU Participant</string>
     <string name="google_date">March 2017 - June 2017</string>
+    <string name="google_bullet_one">Participated in CodeU, an exclusive virtual development program for high potential undergraduate students.</string>
+    <string name="google_bullet_two">Worked remotely with a small group of peers to design and build a software project with regular code reviews and guidance from a Google engineer.</string>
+    <string name="google_bullet_three">Given the framework of a desktop chat application written in Java, I implemented data persistence with MongoDB, storing user, conversation, and message data on Mongo Atlas.</string>
+    <string name="google_bullet_four">Exposure to MVC architecture and password encryption.</string>
+    <string name="google_bullet_five">Attended exclusive YouTube Live Career Series hosted by Google recruiters and engineers, covering industry and career preparation topics.</string>
 
     <!-- Hudl Experience (2016) -->
     <string name="hudl_position_2016">Software Quality Analyst Intern</string>
     <string name="hudl_date_2016">May 2016 - August 2016</string>
+    <string name="hudl_2016_bullet_one">Discovered and audited 6 months’ worth of lost public video, leading to more accurate historical analytical business data.</string>
+    <string name="hudl_2016_bullet_two">Advised and developed new features from day one with daily team discussions and goal planning.</string>
+    <string name="hudl_2016_bullet_three">Engaged in agile development methods such as iteration and release candidate planning.</string>
+    <string name="hudl_2016_bullet_four">Communicated and documented software issues using Trello and Atlassian tools such as Jira and Confluence.</string>
+    <string name="hudl_2016_bullet_five">Wrote Python scripts for automated tests using the Selenium and Appium automation frameworks.</string>
 
 
     <!-- ////////////// -->

@@ -15,12 +15,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
         android:textSize="@dimen/regular_body_text"
         android:text="@string/high_school_act"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
         android:textSize="@dimen/regular_body_text"
         android:text="@string/high_school_outstanding_senior"/>
 
