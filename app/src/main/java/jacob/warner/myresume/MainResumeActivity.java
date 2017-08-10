@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.NonNull;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.ActivityCompat;
@@ -52,12 +53,19 @@ public class MainResumeActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
 
         mFloatingToolbar = (FloatingToolbar) findViewById(R.id.floatingToolbar);
+        CoordinatorLayout.LayoutParams lp = (CoordinatorLayout.LayoutParams) mFloatingToolbar.getLayoutParams();
+        lp.setBehavior(new ScrollFloatingToolbarBehavior());
+
         mFloatingToolbar.setMenu(new FloatingToolbarMenuBuilder(this)
                 .addItem(R.id.action_call, R.drawable.ic_phone_white_24dp)
                 .addItem(R.id.action_email, R.drawable.ic_email_white_24dp)
                 .build());
 
-        mFloatingToolbar.attachFab((FloatingActionButton) findViewById(R.id.fab_contact));
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_contact);
+        CoordinatorLayout.LayoutParams flp = (CoordinatorLayout.LayoutParams) fab.getLayoutParams();
+        flp.setBehavior(new ScrollFABBehavior());
+
+        mFloatingToolbar.attachFab(fab);
         mFloatingToolbar.setClickListener(new FloatingToolbar.ItemClickListener() {
             @Override
             public void onItemClick(MenuItem item) {
@@ -129,10 +137,14 @@ public class MainResumeActivity extends AppCompatActivity {
         dialogFragment.show(getSupportFragmentManager(), "LegalInformationDialogFragment");
     }
 
-    private void checkPermissions(){
+    private void checkPermissions() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED ||
                 ContextCompat.checkSelfPermission(this, Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED) {
+
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.INTERNET}, REQUEST_PERMISSIONS);
+
+        } else {
+            startDownload();
         }
     }
 

@@ -7,11 +7,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/bullet_point_divider_spacing"
+        android:layout_marginTop="@dimen/subheading_divider_spacing"
         android:text="@string/honors_and_awards_title"
         android:textColor="@color/black_contrast_87"
-        android:textSize="@dimen/subheading_text"
-        android:textStyle="italic" />
+        android:textSize="@dimen/subheading_text" />
 
     <TextView
         android:layout_width="wrap_content"

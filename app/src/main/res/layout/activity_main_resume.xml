@@ -50,9 +50,9 @@
 
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:id="@+id/circle_image"
-                            android:layout_gravity="center_horizontal"
                             android:layout_width="@dimen/circle_image_width"
                             android:layout_height="@dimen/circle_image_width"
+                            android:layout_gravity="center_horizontal"
                             android:layout_marginBottom="@dimen/image_spacing"
                             android:layout_marginStart="@dimen/image_spacing"
                             android:src="@drawable/self_portrait_circle"
@@ -64,6 +64,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
+                            android:gravity="center"
                             android:orientation="vertical">
 
                             <TextView
@@ -78,13 +79,12 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="@string/personal_description"
-                                android:maxLines="5"/>
+                                android:maxLines="5"
+                                android:text="@string/personal_description" />
 
                         </LinearLayout>
 
                     </LinearLayout>
-
 
 
                 </RelativeLayout>
@@ -111,8 +111,7 @@
         android:id="@+id/floatingToolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:layout_gravity="bottom"
-        app:layout_behavior=".ScrollFloatingToolbarBehavior" />
+        android:layout_gravity="bottom" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_contact"
@@ -120,7 +119,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/ic_person_white_48dp"
-        app:layout_behavior=".ScrollFABBehavior" />
+        android:src="@drawable/ic_person_white_48dp" />
 
 </android.support.design.widget.CoordinatorLayout>

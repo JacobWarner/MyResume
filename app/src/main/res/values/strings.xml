@@ -1,6 +1,7 @@
 <resources>
     <string name="title_activity_main_resume">MainResumeActivity</string>
     <string name="personal_name">Jacob Warner</string>
+    <string name="application_label">JW\'s Resume</string>
     <string name="title_my_resume">My Resume</string>
     <string name="app_name">Jacob\'s Resume</string>
     <string name="personal_description">
@@ -91,11 +92,11 @@
     <string name="garmin_and_location">Garmin International, Olathe, Kansas</string>
     <string name="garmin_position">Android Software Engineer Intern</string>
     <string name="garmin_date">May 2017 - August 2017</string>
-    <string name="garmin_bullet_one">Developed a way for users to share photos to enhance their social experience on Garmin’s Android application, Connect, as the feature’s <i>only</i> Android developer, while contributing to other products and features.</string>
-    <string name="garmin_bullet_two">Programmed using <b>Java</b> in Android Studio, gaining a vast amount of knowledge on Android and its components.</string>
-    <string name="garmin_bullet_three">Worked closely with API, implementing endpoint and HTTP calls using background threads.</string>
+    <string name="garmin_bullet_one">Developed a method for users to share photos and enhance their social experience on Garmin’s Android application, Connect, as the feature’s <i>only</i> Android developer, while contributing to other products and features.</string>
+    <string name="garmin_bullet_two">Programmed using <b>Java</b> in <b>Android Studio</b>, gaining a vast amount of knowledge on Android and its components.</string>
+    <string name="garmin_bullet_three">Worked closely with Garmin Connect API, implementing HTTP service calls using background threads.</string>
     <string name="garmin_bullet_four">Familiarized myself with Glide, a largely used image loader library recommended by Google.</string>
-    <string name="garmin_bullet_five">Engaged in <b>agile methodologies</b> such as iteration, release candidate and sprint planning, and code freezes.</string>
+    <string name="garmin_bullet_five">Engaged in agile development methods including iterative development, sprint demos, standup meetings, code reviews, and source control using <b>Git</b> and <b>Gerrit</b>.</string>
 
     <!-- Google Experience -->
     <string name="google_and_location">Google, Lincoln, Nebraska</string>
@@ -114,7 +115,7 @@
     <string name="hudl_2016_bullet_two">Wrote <b>Python</b> scripts for automated tests using the Selenium and Appium automation frameworks.</string>
     <string name="hudl_2016_bullet_three">Discovered and audited <i>6 months’ worth</i> of lost public video, leading to more accurate historical analytical business data.</string>
     <string name="hudl_2016_bullet_four">Advised and developed new features from day one with daily team discussions and goal planning.</string>
-    <string name="hudl_2016_bullet_five">Communicated and documented software issues using Trello and Atlassian tools such as <i>Jira</i> and <i>Confluence</i>.</string>
+    <string name="hudl_2016_bullet_five">Communicated and documented software issues using Trello and Atlassian tools such as <b>Jira</b> and <b>Confluence</b>.</string>
 
     <!-- ////////////// -->
     <!-- End Experience -->

@@ -11,7 +11,7 @@
     <item
         android:id="@+id/action_legal"
         android:title="@string/action_legal"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/action_call"
