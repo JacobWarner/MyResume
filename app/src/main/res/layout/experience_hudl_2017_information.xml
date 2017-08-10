@@ -8,17 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:text="Did stuff" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/text_margin_separator"
-        android:text="More stuff" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Lots of stuff" />
+        android:text="@string/hudl_2017_bullet_one" />
 
 </LinearLayout>

@@ -16,15 +16,51 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
 
+        <include layout="@layout/section_divider" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Current Project(s)"
+            android:text="@string/current_projects_title"
             android:textColor="@color/black_contrast_87"
             android:textSize="@dimen/headline_text" />
 
+        <include layout="@layout/section_divider" />
+
         <include layout="@layout/projects_resume_app" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:autoLink="web"
+            android:text="@string/resume_app_github_link"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <include layout="@layout/section_divider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/past_projects_title"
+            android:textColor="@color/black_contrast_87"
+            android:textSize="@dimen/headline_text" />
+
+        <include layout="@layout/section_divider" />
+
+        <include layout="@layout/projects_codeu_chat_app" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:autoLink="web"
+            android:text="@string/codeu_github_link"/>
 
     </LinearLayout>
 

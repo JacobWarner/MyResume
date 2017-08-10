@@ -9,8 +9,8 @@
     tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
 
     <ImageView
-        android:id="@+id/hudl_icon_2017"
-        android:layout_width="80dp"
+        android:id="@+id/self_portrait_icon"
+        android:layout_width="@dimen/default_image_icon_width"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
@@ -24,19 +24,17 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/college_bachelors"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="My Resume App"
+            android:text="@string/my_resume_app_title"
             android:textColor="@color/black_contrast_87"
             android:textSize="@dimen/subheading_text"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/college_minor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="First Android project meant to familiarize myself with Google Material Design"
+            android:text="@string/resume_app_description"
             android:textColor="@color/black_contrast_87"
             android:textSize="@dimen/regular_body_text" />
 

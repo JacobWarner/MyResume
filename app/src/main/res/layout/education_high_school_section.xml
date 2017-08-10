@@ -14,7 +14,7 @@
 
         <ImageView
             android:id="@+id/burke_icon"
-            android:layout_width="80dp"
+            android:layout_width="@dimen/default_image_icon_width"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="centerInside"
@@ -66,7 +66,6 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/college_graduation_gpa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"

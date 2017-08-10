@@ -8,17 +8,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:text="Did stuff" />
+        android:text="@string/garmin_bullet_one" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:text="More stuff" />
+        android:text="@string/garmin_bullet_two" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lots of stuff" />
+        android:layout_marginBottom="@dimen/text_margin_separator"
+        android:text="@string/garmin_bullet_three" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_separator"
+        android:text="@string/garmin_bullet_four" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/garmin_bullet_five" />
 
 </LinearLayout>

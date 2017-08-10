@@ -1,4 +1,5 @@
 <resources>
+    <string name="title_activity_main_resume">MainResumeActivity</string>
     <string name="personal_name">Jacob Warner</string>
     <string name="title_my_resume">My Resume</string>
     <string name="app_name">Jacob\'s Resume</string>
@@ -84,41 +85,86 @@
     <string name="hudl_and_location">Hudl, Lincoln, Nebraska</string>
     <string name="hudl_position_2017">Software Engineer - Design Studio</string>
     <string name="hudl_date_2017">August 2017 - Present</string>
+    <string name="hudl_2017_bullet_one">Leading the testing efforts of our product design capstone project, while engaging in agile processes and developing real software for sports analytics company, Hudl.</string>
 
     <!-- Garmin Experience -->
     <string name="garmin_and_location">Garmin International, Olathe, Kansas</string>
     <string name="garmin_position">Android Software Engineer Intern</string>
     <string name="garmin_date">May 2017 - August 2017</string>
+    <string name="garmin_bullet_one">Developed a way for users to share photos to enhance their social experience on Garmin’s Android application, Connect, as the feature’s <i>only</i> Android developer, while contributing to other products and features.</string>
+    <string name="garmin_bullet_two">Programmed using <b>Java</b> in Android Studio, gaining a vast amount of knowledge on Android and its components.</string>
+    <string name="garmin_bullet_three">Worked closely with API, implementing endpoint and HTTP calls using background threads.</string>
+    <string name="garmin_bullet_four">Familiarized myself with Glide, a largely used image loader library recommended by Google.</string>
+    <string name="garmin_bullet_five">Engaged in <b>agile methodologies</b> such as iteration, release candidate and sprint planning, and code freezes.</string>
 
     <!-- Google Experience -->
     <string name="google_and_location">Google, Lincoln, Nebraska</string>
     <string name="google_position">Google CodeU Participant</string>
     <string name="google_date">March 2017 - June 2017</string>
-    <string name="google_bullet_one">Participated in CodeU, an exclusive virtual development program for high potential undergraduate students.</string>
+    <string name="google_bullet_one">Participated in CodeU, an exclusive virtual development program for <i>high potential</i> undergraduate students.</string>
     <string name="google_bullet_two">Worked remotely with a small group of peers to design and build a software project with regular code reviews and guidance from a Google engineer.</string>
-    <string name="google_bullet_three">Given the framework of a desktop chat application written in Java, I implemented data persistence with MongoDB, storing user, conversation, and message data on Mongo Atlas.</string>
-    <string name="google_bullet_four">Exposure to MVC architecture and password encryption.</string>
+    <string name="google_bullet_three">Implemented data persistence with <b>MongoDB</b>, storing user, conversation, and message data on Mongo Atlas for our desktop <b>Java</b> chat application.</string>
+    <string name="google_bullet_four">Exposure to <b>MVC architecture</b> and password encryption.</string>
     <string name="google_bullet_five">Attended exclusive YouTube Live Career Series hosted by Google recruiters and engineers, covering industry and career preparation topics.</string>
 
     <!-- Hudl Experience (2016) -->
     <string name="hudl_position_2016">Software Quality Analyst Intern</string>
     <string name="hudl_date_2016">May 2016 - August 2016</string>
-    <string name="hudl_2016_bullet_one">Discovered and audited 6 months’ worth of lost public video, leading to more accurate historical analytical business data.</string>
-    <string name="hudl_2016_bullet_two">Advised and developed new features from day one with daily team discussions and goal planning.</string>
-    <string name="hudl_2016_bullet_three">Engaged in agile development methods such as iteration and release candidate planning.</string>
-    <string name="hudl_2016_bullet_four">Communicated and documented software issues using Trello and Atlassian tools such as Jira and Confluence.</string>
-    <string name="hudl_2016_bullet_five">Wrote Python scripts for automated tests using the Selenium and Appium automation frameworks.</string>
-
+    <string name="hudl_2016_bullet_one">Worked side-by-side with talented Developers, Designers, and Product Managers every day ensuring customers would use their software by writing automated regression and load tests and manually testing across all platforms.</string>
+    <string name="hudl_2016_bullet_two">Wrote <b>Python</b> scripts for automated tests using the Selenium and Appium automation frameworks.</string>
+    <string name="hudl_2016_bullet_three">Discovered and audited <i>6 months’ worth</i> of lost public video, leading to more accurate historical analytical business data.</string>
+    <string name="hudl_2016_bullet_four">Advised and developed new features from day one with daily team discussions and goal planning.</string>
+    <string name="hudl_2016_bullet_five">Communicated and documented software issues using Trello and Atlassian tools such as <i>Jira</i> and <i>Confluence</i>.</string>
 
     <!-- ////////////// -->
     <!-- End Experience -->
     <!-- ////////////// -->
 
+
+    <!-- Projects -->
+    <string name="current_projects_title">Current Project(s)</string>
+    <string name="past_projects_title">Past Project(s)</string>
+    <string name="my_resume_app_title">My Resume App</string>
+    <string name="resume_app_description">First Android project meant to familiarize myself with <i>Google Material Design</i>.</string>
+    <string name="resume_app_github_link">Source code can be found at https://github.com/JacobWarner/ResumeApp</string>
+    <string name="codeu_project_2017_title">CodeU Project 2017</string>
+    <string name="codeu_project_description">As part of the Google CodeU program, I was given the framework of a desktop chat application in <b>Java</b> to develop my coding and software engineering skills. My job was to implement data persistence, which I chose to do through <b>MongoDB</b>.</string>
+    <string name="codeu_github_link">Source code can be found at https://github.com/JacobWarner/codeu_project_2017</string>
+
+
     <!-- Menu Actions -->
-    <string name="action_settings">Settings</string>
+    <string name="action_save_as_pdf">Save as PDF</string>
+    <string name="action_legal">Legal</string>
     <string name="action_call">Call</string>
     <string name="action_email">Email</string>
+    <string name="pdf_download_string">https://www.dropbox.com/s/h4grnga4kg4a482/Resume.pdf?raw=1</string>
+    <string name="pdf_file_title">Jacob Warner\'s Resume</string>
+    <string name="pdf_file_name">jacob_warner_resume.pdf</string>
 
-    <string name="title_activity_main_resume">MainResumeActivity</string>
-    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Legal -->
+    <string name="circle_imageview_title">CircleImageView</string>
+    <string name="floating_toolbar_title">FloatingToolbar</string>
+    <string name="circular_imageview_legal_info">
+        Copyright 2014 - 2017 Henning Dodenhof\n\nLicensed under the Apache License, Version 2.0 (the \"License\");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at\n\n
+        \t http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an \"AS IS\" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    </string>
+    <string name="floating_toolbar_legal_info">
+        Copyright 2016 Rúben Sousa\n\nLicensed under the Apache License, Version 2.0 (the \"License\");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at\n\n
+        \t http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an \"AS IS\" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    </string>
+    <string name="done_lbl">Done</string>
+
 </resources>

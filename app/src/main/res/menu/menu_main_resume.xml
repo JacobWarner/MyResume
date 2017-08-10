@@ -4,10 +4,14 @@
     tools:context="jacob.warner.myresume.MainResumeActivity">
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:id="@+id/action_save_as_pdf"
+        android:title="@string/action_save_as_pdf"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_legal"
+        android:title="@string/action_legal"
+        app:showAsAction="never"/>
 
     <item
         android:id="@+id/action_call"

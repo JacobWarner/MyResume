@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/hudl_icon_2016"
-        android:layout_width="80dp"
+        android:layout_width="@dimen/default_image_icon_width"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
@@ -30,7 +30,6 @@
             android:textSize="@dimen/regular_body_text" />
 
         <TextView
-            android:id="@+id/college_bachelors"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/hudl_position_2016"
@@ -39,7 +38,6 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/college_minor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/hudl_date_2016"
