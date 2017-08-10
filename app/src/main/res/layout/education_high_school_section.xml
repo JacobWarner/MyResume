@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="centerInside"
-            android:src="@drawable/burke_high"/>
+            android:src="@drawable/burke_high" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -31,23 +31,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/high_school_name"
-                android:textSize="@dimen/regular_body_text"
-                android:textColor="@color/black_contrast_87"/>
+                android:textColor="@color/black_contrast_87"
+                android:textSize="@dimen/regular_body_text" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/high_school_subheading"
+                android:textColor="@color/black_contrast_87"
                 android:textSize="@dimen/subheading_text"
-                android:textColor="@color/black_contrast_87"
-                android:textStyle="bold"
-                android:text="@string/high_school_subheading"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/regular_body_text"
+                android:text="@string/high_school_location"
                 android:textColor="@color/black_contrast_87"
-                android:text="@string/high_school_location"/>
+                android:textSize="@dimen/regular_body_text" />
 
         </LinearLayout>
 
@@ -61,9 +61,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/high_school_gpa"
             android:textSize="@dimen/regular_body_text"
-            android:textStyle="bold"
-            android:text="@string/high_school_gpa"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/college_graduation_gpa"
@@ -71,13 +71,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:text="@string/high_school_graduation_date"
-            android:textStyle="bold"
-            android:textSize="@dimen/regular_body_text"/>
+            android:textSize="@dimen/regular_body_text"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
-    <include layout="@layout/education_hs_honors_section"/>
+    <include layout="@layout/education_hs_honors_section" />
 
-    <include layout="@layout/education_hs_activities_section"/>
+    <include layout="@layout/education_hs_activities_section" />
 
 </LinearLayout>

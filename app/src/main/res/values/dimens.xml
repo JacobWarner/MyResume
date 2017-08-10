@@ -21,7 +21,7 @@
     <dimen name="fab_resting_elevation">6dp</dimen>
     <dimen name="appbar_resting_elevation">4dp</dimen>
     <dimen name="card_elevation">2dp</dimen>
-    
+
     <!-- Text dimensions -->
     <dimen name="display_two_text">45sp</dimen>
     <dimen name="display_one_text">34sp</dimen>

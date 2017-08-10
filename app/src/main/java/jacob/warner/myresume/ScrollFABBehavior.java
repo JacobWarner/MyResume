@@ -1,13 +1,11 @@
 package jacob.warner.myresume;
 
 import android.content.Context;
-import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.Toast;
 
 /**
  * Created by Jacob on 8/6/2017.
@@ -15,7 +13,7 @@ import android.widget.Toast;
 
 public class ScrollFABBehavior extends FloatingActionButton.Behavior {
 
-    ScrollFABBehavior(){
+    ScrollFABBehavior() {
         super();
     }
 

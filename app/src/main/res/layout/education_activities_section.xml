@@ -1,70 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/bullet_point_divider_spacing"
         android:text="@string/activties_title"
-        android:textSize="@dimen/subheading_text"
         android:textColor="@color/black_contrast_87"
-        android:textStyle="italic"/>
+        android:textSize="@dimen/subheading_text"
+        android:textStyle="italic" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:textSize="@dimen/regular_body_text"
-        android:text="@string/activities_honor_societies"/>
+        android:text="@string/activities_honor_societies"
+        android:textSize="@dimen/regular_body_text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:textSize="@dimen/regular_body_text"
-        android:text="@string/activities_kra"/>
+        android:text="@string/activities_kra"
+        android:textSize="@dimen/regular_body_text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:textSize="@dimen/regular_body_text"
-        android:text="@string/activities_raikes_treasurer"/>
+        android:text="@string/activities_raikes_treasurer"
+        android:textSize="@dimen/regular_body_text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:textSize="@dimen/regular_body_text"
-        android:text="@string/activities_raikes_ambassador"/>
+        android:text="@string/activities_raikes_ambassador"
+        android:textSize="@dimen/regular_body_text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:textSize="@dimen/regular_body_text"
-        android:text="@string/activities_marathon_charity"/>
+        android:text="@string/activities_marathon_charity"
+        android:textSize="@dimen/regular_body_text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:textSize="@dimen/regular_body_text"
-        android:text="@string/activities_ooft"/>
+        android:text="@string/activities_ooft"
+        android:textSize="@dimen/regular_body_text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/text_margin_separator"
-        android:textSize="@dimen/regular_body_text"
-        android:text="@string/activities_pike_member"/>
+        android:text="@string/activities_pike_member"
+        android:textSize="@dimen/regular_body_text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/regular_body_text"
-        android:text="@string/activities_pike_internet"/>
+        android:text="@string/activities_pike_internet"
+        android:textSize="@dimen/regular_body_text" />
 
 </LinearLayout>

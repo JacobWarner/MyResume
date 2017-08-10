@@ -10,7 +10,7 @@
     <color name="colorSecondaryLight">#8eacbb</color>
     <color name="colorAccent">#607d8b</color>
     <color name="transparent">@android:color/transparent</color>
-    
+
     <!-- Text -->
     <color name="colorPrimaryText">#FFFFFF</color>
     <color name="colorSecondaryText">#000000</color>

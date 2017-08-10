@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="centerInside"
-            android:src="@drawable/unl_icon"/>
+            android:src="@drawable/unl_icon" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -30,17 +30,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/college_name"
-                android:textSize="@dimen/regular_body_text"
-                android:textColor="@color/black_contrast_87"/>
+                android:textColor="@color/black_contrast_87"
+                android:textSize="@dimen/regular_body_text" />
 
             <TextView
                 android:id="@+id/college_bachelors"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/bachelor_of_science"
-                android:textStyle="bold"
                 android:textColor="@color/black_contrast_87"
-                android:textSize="@dimen/subheading_text"/>
+                android:textSize="@dimen/subheading_text"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/college_minor"
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/minor_study"
                 android:textColor="@color/black_contrast_87"
-                android:textSize="@dimen/regular_body_text"/>
+                android:textSize="@dimen/regular_body_text" />
 
         </LinearLayout>
 
@@ -62,9 +62,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/grade_point_average"
             android:textSize="@dimen/regular_body_text"
-            android:textStyle="bold"
-            android:text="@string/grade_point_average"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/college_graduation_gpa"
@@ -72,8 +72,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:text="@string/anticipated_graduation"
-            android:textStyle="bold"
-            android:textSize="@dimen/regular_body_text"/>
+            android:textSize="@dimen/regular_body_text"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -81,21 +81,21 @@
         android:id="@+id/honors_full_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/subheading_text"
-        android:textColor="@color/black_contrast_87"
-        android:textStyle="italic"
         android:layout_marginTop="@dimen/bullet_point_divider_spacing"
-        android:text="@string/honors_full_title"/>
+        android:text="@string/honors_full_title"
+        android:textColor="@color/black_contrast_87"
+        android:textSize="@dimen/subheading_text"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/raikes_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/regular_body_text"
-        android:text="@string/raikes_school_description"/>
+        android:text="@string/raikes_school_description"
+        android:textSize="@dimen/regular_body_text" />
 
-    <include layout="@layout/education_honors_section"/>
+    <include layout="@layout/education_honors_section" />
 
-    <include layout="@layout/education_activities_section"/>
+    <include layout="@layout/education_activities_section" />
 
 </LinearLayout>

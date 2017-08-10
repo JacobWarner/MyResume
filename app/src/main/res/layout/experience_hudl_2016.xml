@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
-        android:src="@drawable/hudl_mark"/>
+        android:src="@drawable/hudl_mark" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -26,17 +26,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/hudl_and_location"
-            android:textSize="@dimen/regular_body_text"
-            android:textColor="@color/black_contrast_87"/>
+            android:textColor="@color/black_contrast_87"
+            android:textSize="@dimen/regular_body_text" />
 
         <TextView
             android:id="@+id/college_bachelors"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/hudl_position_2016"
-            android:textStyle="bold"
             android:textColor="@color/black_contrast_87"
-            android:textSize="@dimen/subheading_text"/>
+            android:textSize="@dimen/subheading_text"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/college_minor"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:text="@string/hudl_date_2016"
             android:textColor="@color/black_contrast_87"
-            android:textSize="@dimen/regular_body_text"/>
+            android:textSize="@dimen/regular_body_text" />
 
     </LinearLayout>
 

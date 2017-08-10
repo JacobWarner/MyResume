@@ -36,7 +36,7 @@
     <string name="deans_list_award">Dean\'s List, `15 - `16 and `16 - `17</string>
     <string name="spreetail_scholarship">Spreetail Make-a-Dent CSE Scholarship</string>
     <string name="koch_scholarship">Koch Discovery Program Scholarship</string>
-    
+
 
     <!-- College - Activities -->
     <string name="activties_title">Activities</string>
@@ -62,8 +62,8 @@
     <string name="high_school_bullet_two">
         "National Honor Society (President), Senior Senate (Treasurer), Varsity Marching Band (Low Brass Section Leader), Academic Decathlon (Tester)"
     </string>
-    
-    
+
+
     <!-- High School - Honors and Awards -->
     <string name="high_school_act">33 ACT, AP Scholar, Weighted GPA 4.90</string>
     <string name="high_school_outstanding_senior">2015 Outstanding Senior Award by the Omaha West Rotary Club</string>

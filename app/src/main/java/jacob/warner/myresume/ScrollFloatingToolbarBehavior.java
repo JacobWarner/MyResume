@@ -13,7 +13,7 @@ import com.github.rubensousa.floatingtoolbar.FloatingToolbar;
 
 public class ScrollFloatingToolbarBehavior extends CoordinatorLayout.Behavior<FloatingToolbar> {
 
-    ScrollFloatingToolbarBehavior(){
+    ScrollFloatingToolbarBehavior() {
         super();
     }
 

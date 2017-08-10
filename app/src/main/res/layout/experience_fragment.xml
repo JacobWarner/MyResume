@@ -1,9 +1,8 @@
-<android.support.v4.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="wrap_content"
     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -11,33 +10,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="jacob.warner.myresume.MainResumeActivity$PlaceholderFragment">
 
-        <include layout="@layout/experience_hudl_2017"/>
+        <include layout="@layout/experience_hudl_2017" />
 
-        <include layout="@layout/experience_hudl_2017_information"/>
+        <include layout="@layout/experience_hudl_2017_information" />
 
-        <include layout="@layout/section_divider"/>
+        <include layout="@layout/section_divider" />
 
-        <include layout="@layout/experience_garmin"/>
+        <include layout="@layout/experience_garmin" />
 
-        <include layout="@layout/experience_garmin_information"/>
+        <include layout="@layout/experience_garmin_information" />
 
-        <include layout="@layout/section_divider"/>
+        <include layout="@layout/section_divider" />
 
-        <include layout="@layout/experience_google"/>
+        <include layout="@layout/experience_google" />
 
-        <include layout="@layout/experience_google_information"/>
+        <include layout="@layout/experience_google_information" />
 
-        <include layout="@layout/section_divider"/>
+        <include layout="@layout/section_divider" />
 
-        <include layout="@layout/experience_hudl_2016"/>
+        <include layout="@layout/experience_hudl_2016" />
 
-        <include layout="@layout/experience_hudl_2016_information"/>
+        <include layout="@layout/experience_hudl_2016_information" />
 
     </LinearLayout>
 

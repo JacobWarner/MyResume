@@ -39,25 +39,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="?attr/actionBarSize"
                         android:background="?attr/colorPrimary"
-                        android:theme="@style/AppTheme.PopupOverlay"/>
+                        android:theme="@style/AppTheme.PopupOverlay" />
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_below="@id/toolbar"
                         android:id="@+id/circle_image"
                         android:layout_width="@dimen/circle_image_width"
                         android:layout_height="@dimen/circle_image_width"
+                        android:layout_below="@id/toolbar"
+                        android:layout_marginBottom="@dimen/image_spacing"
+                        android:layout_marginStart="@dimen/image_spacing"
                         android:src="@drawable/self_portrait_circle"
                         app:civ_border_color="@color/border_color_white"
-                        app:civ_border_width="@dimen/border_width"
-                        android:layout_marginStart="@dimen/image_spacing"
-                        android:layout_marginBottom="@dimen/image_spacing"/>
+                        app:civ_border_width="@dimen/border_width" />
 
                     <LinearLayout
                         android:id="@+id/collapse_toolbar_title"
-                        android:layout_toEndOf="@id/circle_image"
-                        android:layout_alignTop="@id/circle_image"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/circle_image"
+                        android:layout_toEndOf="@id/circle_image"
                         android:orientation="vertical">
 
                         <TextView
@@ -72,7 +72,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="@string/personal_description"/>
+                            android:text="@string/personal_description" />
 
                     </LinearLayout>
 
@@ -86,7 +86,7 @@
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"/>
+            android:layout_gravity="bottom" />
 
     </android.support.design.widget.AppBarLayout>
 
@@ -101,15 +101,15 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_gravity="bottom"
-        app:layout_behavior="jacob.warner.myresume.ScrollFloatingToolbarBehavior"/>
+        app:layout_behavior="jacob.warner.myresume.ScrollFloatingToolbarBehavior" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_contact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
         android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
         android:src="@drawable/ic_person_white_48dp"
-        app:layout_behavior="jacob.warner.myresume.ScrollFABBehavior"/>
+        app:layout_behavior="jacob.warner.myresume.ScrollFABBehavior" />
 
 </android.support.design.widget.CoordinatorLayout>
