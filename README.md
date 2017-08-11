@@ -18,6 +18,10 @@ The application has four main sections - the description header, education tab, 
 
 The description header contains a circular portrait, my name, and a small description of what type of internship I'm looking for currently. I placed them all within a CollapsingToolbarLayout, so that the header would hide when users scrolled vertically to see more information. When it hides, it "snaps" to the TabLayout - following Google Material Design.
 
+<p align="center">
+  <img src="./media/CollapsedToolbarGif.gif">
+</p>
+
 In the top right corner, I have an options menu containing two menu items - "<i>Save as PDF</i>" and "<i>Legal</i>". If a user wants a digital PDF version of my resume, they may download it directly from the app. At first, I wanted to put the PDF directly inside the application, but then I realized any update to my resume would mean an update for my app. So, I decided to upload my file to Dropbox and, using its URL, download the file using DownloadManager. The URL does not change, so I can make changes to the file at any time. The Legal menu item gives credit to those who's code I used in my project.
 
 <h4>Education Tab</h4>
