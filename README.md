@@ -12,7 +12,7 @@ Since I was still working at Garmin, it took about ten days of working on and of
 
 <h2>Application Sections</h2>
 
-The application has four main sections - the descripton header, education tab, experience tab, and projects tab.
+The application has four main sections - the description header, education tab, experience tab, and projects tab.
 
 <h4>Description Header</h4>
 
@@ -35,3 +35,7 @@ I didn't have a <b>projects</b> section in my resume until recently, but I have 
 <h2>Google Material Design</h2>
 
 Material design has a lot of documentation online, so I'm sure I missed some aspects, but I'm still proud of the end result. I followed default margin, text, and spacing sizes, as well as layout behavior (i.e. hiding the FloatingActionButton/FloatingToolbar when a user scrolls down). I also tried to find colors that mixed well - sticking to a primary color of blue and a secondary color of gray - and used them according to material design (i.e. toolbar as primary and actions as gray). I not only learned a lot about how things should look, but also how they should act for the user and why.
+
+<h2>FloatingToolbar</h2>
+
+If users want to contact me, they can tap on the FloatingActionButton on the bottom right, causing a FloatingToolbar to morph into view. The FloatingToolbar contains phone and email icons that, when tapped, will either take the user to their keypad with my number already filled in, or start an email directed towards me. I originally had three buttons in the header for calling, emailing, and saving the PDF, but I then learned that there should usually be one FloatingActionButton per page with its action(s) being of similar functionality. So, I decided to place contact actions in the FloatingToolbar, and the saving functionality in my options menu.
